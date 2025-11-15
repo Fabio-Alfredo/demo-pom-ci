@@ -6,7 +6,7 @@ export class ProductsPage {
 
   constructor(page: Page) {
     this.page = page;
-    this.title = page.locator('.item-4-title-link');
+    this.title = page.locator('.title');
   }
 
   async verifyIsOnProductsPage() {
